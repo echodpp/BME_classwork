@@ -12,3 +12,17 @@ def check_HDL(HDL_result):
         return "Borderline Low"
     else:
         return "Low"
+
+
+def HDL_driver():
+    # Get input
+    HDL_result = input_HDL()
+    # Check HDL level
+    check = check_HDL(HDL_result)
+    # Output
+    print("The HDL level is {}".format(check))
+
+
+def output_HDL(HDL_result, check):
+    print("The HDL level is {}".format(check))
+    return check
