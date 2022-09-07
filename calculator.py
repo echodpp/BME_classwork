@@ -34,3 +34,39 @@ def output_HDL(HDL_value, HDL_result):
 
 
 # Modify interface to add the HDL analysis option and call your HDL driver function
+
+
+def input_LDL():
+    LDL_input = input("Enter LDL value: ")
+    return int(LDL_input)
+
+
+def check_LDL(LDL_result):
+    if LDL_result < 130:
+        return "Normal"
+    elif 130 <= LDL_result < 159:
+        return "Borderline High"
+    elif 160 <= LDL_result < 189:
+        return "High"
+    else:
+        return "Very High"
+
+
+def LDL_driver():
+    LDL_value = input_LDL()
+    LDL_result = check_LDL(LDL_value)
+    output_LDL(LDL_value, LDL_result)
+
+
+def output_LDL(LDL_value, LDL_result):
+    print("The LDL value of {} is considered {}".format(LDL_value, LDL_result))
+
+
+# Using the feature branch approach
+def check_total_cholesterol(TC_result):
+    if TC_result < 200:
+        return "Normal"
+    elif 200 <= TC_result < 239:
+        return "Borderline High"
+    else:
+        return "High"
