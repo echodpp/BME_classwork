@@ -9,3 +9,8 @@ import pytest
 def test_check_HDL(input, expected):
     answer = check_HDL(input)
     assert answer == expected
+
+
+def test_check_LDL():
+    answer = check_LDL(180)
+    assert answer == "High"
