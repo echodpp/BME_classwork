@@ -1,6 +1,8 @@
 [![Python application test with Github Actions]
-(https://github.com/echodpp/BME_classwork/blob/LDL/.github/workflows/pytest_runner.yml/badge.svg)]
-(https://github.com/echodpp/BME_classwork/blob/LDL/.github/workflows/pytest_runner.yml)
+(https://github.com/echodpp/BME_classwork/blob/Weight_Entry/.github/workflows/pytest_runner.yml/badge.svg)]
+(https://github.com/echodpp/BME_classwork/blob/Weight_Entry/.github/workflows/pytest_runner.yml)
+
+
 
 # BME_classwork
 classwork in BME547 2022 fall
