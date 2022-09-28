@@ -1,4 +1,4 @@
-![Python application test with Github Actions](https://github.com/echodpp/BME_classwork/.github/workflows/pytest_runner.yml/badge.svg)
+![Python application test with Github Actions](https://github.com/echodpp/BME_classwork/actions/workflows/pytest_runner.yml/badge.svg)
 
 
 
