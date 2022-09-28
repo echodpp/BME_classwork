@@ -16,7 +16,8 @@ def create_patient_entry(first_name, last_name, id, age):
 
 def full_name(patient):
     """return the full name"""
-    return patient["First Name"] + " " + patient["Last Name"]
+    full_name = "{} {}".format(patient["First Name"], patient["Last Name"])
+    return full_name
 
 
 def find_patient(database, id):
@@ -31,7 +32,9 @@ def print_database(database):
         print(patient)
         print(
             "First Name:{},ID:{},Age:{} ".format(
-                full_name(patient), patient["ID"], patient["Age"]
+                full_name(database[patient]),
+                database[patient]["ID"],
+                database[patient]["Age"],
             )
         )
 
